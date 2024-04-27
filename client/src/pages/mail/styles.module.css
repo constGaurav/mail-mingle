@@ -1,0 +1,48 @@
+.mailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    cursor: default;
+}
+
+.title {
+    margin-bottom: 12px;
+    text-decoration: underline;
+    &:hover {
+        cursor: pointer;
+        color: rgb(190, 209, 248);
+    }
+}
+
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292828;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.message {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-bottom: 24px;
+    background-color: #3e3d3d;
+    padding: 30px 12px;
+    border-radius: 4px;
+}
+
+.senderDetails {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #282828;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.senderInfo {
+    display: flex;
+    gap: 4px;
+}
