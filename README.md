@@ -1,5 +1,6 @@
 # mail-mingle
 This is saas for sending and receiving mails
+- Currently I have not integrated client and server. will work on this later
 
 ## For MX lookup (Mail Exchange)
 - [MX Lookup](https://mxtoolbox.com/SuperTool.aspx)
